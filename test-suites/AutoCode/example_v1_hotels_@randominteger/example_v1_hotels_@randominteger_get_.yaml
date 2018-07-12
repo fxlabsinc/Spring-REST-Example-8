@@ -1,0 +1,21 @@
+---
+parent: "example_v1_hotels_@randominteger"
+name: "example_v1_hotels_@randominteger_get_"
+description: "You have to provide a valid hotel ID."
+type: "SUITE"
+endpoint: "/example/v1/hotels/{{@RandomInteger}}"
+method: "GET"
+auth: "INVALID_AUTH"
+headers:
+- "Accept: application/json"
+- "Content-Type: application/json"
+testCases: []
+assertions: []
+tags:
+- "V1"
+authors:
+- "FX Bot"
+category: null
+severity: null
+inactive: false
+policies: null
